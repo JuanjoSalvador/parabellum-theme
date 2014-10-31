@@ -1,0 +1,137 @@
+/* 
+	Parabellum Theme
+	Versión: 1.0
+	Autor: Juan José Salvador
+	Web: http://github.com/JuanjoSalvador
+*/
+	
+	/* Paleta de colores usados
+	
+		#f24537 - Rojo
+		#ffffff - Blanco
+		#1a1a1a - Gris (sombra)
+	*/	
+
+	header  { 
+		text-align: center; 
+		background-image: url(../imagenes/pattern.png); 
+		background-repeat: repeat;
+		padding: 12px;
+		}
+
+	h1 {
+		font-family: Oswald;
+		color: #ffffff;
+		font-size: 25pt;
+		text-shadow: -2px 2px 4px #1a1a1a;
+	   }
+
+	body { 
+		background-image: url(../imagenes/pattern.png); 
+		background-repeat: repeat;
+		text-shadow: -2px 2px 4px #1a1a1a;
+	     }
+
+	ul {
+		list-style-type: none;
+	   }
+
+	ol {
+		list-style-type: katakana;
+	       }
+
+	p, li { 
+		color: #ffffff; 
+		font-family: Lora, Helvetica; 
+		font-size: 18px; 
+		text-decoration: none;
+	  }
+
+	footer { 
+		text-align: center;
+		font-size: 10pt;
+		font-family: Oswald;
+		}
+		
+	footer a {
+		color: #ffffff;
+		text-decoration: none;	
+		}
+	footer a:hover {
+		color: #f24537;
+		}
+	article { 
+		position: relative; 
+		margin: 0 0 0 25% ; 
+		width: 50%; 
+		text-align: justify;
+		}
+
+	span, h2, h3, h4, h5 {
+		color: #f24537;
+		font-family: Oswald;
+	     }
+
+	/* Clases */
+	.enlace {
+		text-decoration: underline;
+		color: #ffffff;
+		}
+	.enlace:hover {
+		color: #f24537;
+		}
+
+	.codebox {	
+		width: 97%;
+		background-color: #212121;
+		border: 2px solid #000000;
+		color: #ffffff;
+		padding: 10 10 10 10;
+		}
+
+	/* Botones */
+	.boton {
+		-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+		box-shadow:inset 0px 1px 0px 0px #f5978e;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+		background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+		background-color:#f24537;
+		/* -webkit-border-top-left-radius:0px;
+		-moz-border-radius-topleft:0px;
+		border-top-left-radius:0px;
+		-webkit-border-top-right-radius:0px;
+		-moz-border-radius-topright:0px;
+		border-top-right-radius:0px;
+		-webkit-border-bottom-right-radius:0px;
+		-moz-border-radius-bottomright:0px;
+		border-bottom-right-radius:0px;
+		-webkit-border-bottom-left-radius:0px;
+		-moz-border-radius-bottomleft:0px;
+		border-bottom-left-radius:0px;
+		text-indent:0;*/
+		border:1px solid #d02718;
+		display:inline-block;
+		color:#ffffff;
+		font-family: Helvetica;
+		font-size:15px;
+		font-weight:bold;
+		font-style:normal;
+		height:35px;
+		line-height:40px;
+		width:130px;
+		text-decoration:none;
+		text-align:center;
+		text-shadow: -2px 2px 4px #1a1a1a;
+	}
+	.boton:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+		background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+		background-color:#c62d1f;
+	}.boton:active {
+		position:relative;
+		top:1px;
+	}
+
