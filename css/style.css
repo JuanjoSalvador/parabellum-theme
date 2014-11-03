@@ -87,6 +87,13 @@
 		color: #ffffff;
 		padding: 10 10 10 10;
 		}
+		
+	.imagebox img {
+		position: left;
+		max-width: 50%;
+		height: auto;
+		border: 1px solid white;
+		}
 
 	/* Botones */
 	.boton {
