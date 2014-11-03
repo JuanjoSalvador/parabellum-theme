@@ -15,4 +15,5 @@ Las clases pre-establecidas en el tema, son:
 
 * .enlaces - Enlaces que no se encuetran en el *footer*, principalmente para enlaces en el contenido.
 * .codebox - Bloques de código preformateado (o no).
+* .imagebox - Cajas para imágenes
 * .boton - Botones que enlazan a contenidos internos o externos de la web. Esta clase tiene comentada la sección de *border-radius* ya que está establecida como 0px. Siéntete libre de modificarlo.
